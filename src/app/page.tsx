@@ -1,7 +1,9 @@
+import Navbar from "@/components/ui/private/navbar";
 
 export default function Home() {
   return (
     <main className="dark">
+      <Navbar />
       <div className="grid h-screen place-content-center bg-white px-4 dark:bg-gray-900">
         <div className="text-center">
           <h1 className="text-9xl font-black text-gray-900 dark:text-white/75 my-8">
@@ -9,7 +11,7 @@ export default function Home() {
           </h1>
 
           <p className="text-2xl font-bold tracking-tight text-gray-200 sm:text-4xl dark:text-gray-700">
-            Cooming Soon
+            Coming Soon
           </p>
 
           <a
