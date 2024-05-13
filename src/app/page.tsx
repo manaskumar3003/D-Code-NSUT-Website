@@ -1,3 +1,4 @@
+import Footer from "@/components/ui/private/footer";
 import Navbar from "@/components/ui/private/navbar";
 
 export default function Home() {
@@ -21,7 +22,9 @@ export default function Home() {
             Join Us
           </a>
         </div>
+        
       </div>
+      <Footer />
     </main>
   );
 }
