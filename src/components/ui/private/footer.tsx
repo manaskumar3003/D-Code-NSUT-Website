@@ -7,7 +7,7 @@ export default function Footer() {
             <footer className="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
   <div className="mx-auto max-w-screen-xl text-center">
       
-      <p className="my-6 text-gray-500 dark:text-gray-400">NSUT Tech society</p>
+      <p className="my-6 text-gray-500 dark:text-gray-400">NSUT Tech Society</p>
       <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
           <li>
               <a href="/" className="mr-4 hover:underline md:mr-6 ">Home</a>
