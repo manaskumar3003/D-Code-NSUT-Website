@@ -31,7 +31,7 @@ export default function Footer() {
               <a href="/contact" className="mr-4 hover:underline md:mr-6">Contact</a>
           </li>
       </ul>
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024-2025 <a href="#" className="hover:underline">D'code</a>. All Rights Reserved under NSUT.</span>
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024-2025 <a href="#" className="hover:underline">D&aposcode</a>. All Rights Reserved under NSUT.</span>
   </div>
 </footer>
 </>
