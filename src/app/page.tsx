@@ -1,5 +1,10 @@
 import Footer from "@/components/ui/private/footer";
+import Roles_home from "@/components/ui/private/home/Roles_home";
+import Card_section from "@/components/ui/private/home/card_section";
+import Card_section2 from "@/components/ui/private/home/card_section";
+import Teams_home from "@/components/ui/private/home/Alumni_home";
 import Navbar from "@/components/ui/private/navbar";
+import Alumni_home from "@/components/ui/private/home/Alumni_home";
 
 export default function Home() {
   return (
@@ -71,8 +76,25 @@ export default function Home() {
     </div>
 
   </div>
+  
+
 
 </div>
+<div className="p-20">
+<div className="flex flex-row">
+<div className="basis-1/4"><Card_section title="AIML" /> </div>
+<div className="basis-1/4"><Card_section title="Web Dev" /></div>
+<div className="basis-1/4"><Card_section title="CPP" /></div>
+<div className="basis-1/4"><Card_section title="Content" /></div>
+</div>
+
+
+<Roles_home />
+<Alumni_home/>
+
+</div>
+
+
 
       
     </main>
