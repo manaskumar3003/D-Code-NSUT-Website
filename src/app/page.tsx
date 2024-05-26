@@ -183,18 +183,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-8 md:p-20">
-        <div className="flex flex-row flex-wrap">
-          <div className="basis-1/4">
+      <div className="p-10 md:p-16">
+        <div className="grid grid-cols-2 gap-4 items-center md:grid-cols-4 md">
+          <div className="">
             <Card_section title="AIML" />{" "}
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="Web Dev" />
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="CPP" />
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="Content" />
           </div>
         </div>
