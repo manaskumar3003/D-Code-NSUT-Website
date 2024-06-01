@@ -19,10 +19,12 @@ export default function PrelineScript() {
         const preline = await import("preline/preline");
 
         if (preline && window.HSStaticMethods && window.HSStaticMethods.autoInit) {
-          window.HSStaticMethods.autoInit();
+          if (window.HSStaticMethods && window.HSStaticMethods.autoInit) {
+        window.HSStaticMethods.autoInit();
         }
       } catch (error) {
         console.error("Failed to load Preline:", error);
+      }
       }
     };
 
