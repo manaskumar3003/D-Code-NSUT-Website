@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function Event_gallery1() {
     return (
         <div>
@@ -10,7 +13,7 @@ export default function Event_gallery1() {
             
             <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
               <div className="lg:col-span-3">
-                <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">D'code Hackathon 24 hr</h1>
+                <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">D&apos;code Hackathon 24 hr</h1>
                 <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">The actual hacathon where teams thrive for their last breathe</p>
             
                 
