@@ -54,7 +54,7 @@ export default function Home() {
           <div className="relative ms-4">
             <Image
               className="w-full rounded-md"
-              src="https://innohacks.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F319126f9a2eb42cf9392d007ec7ef6da%2Fassets%2Fcover%2F881.png&w=1440&q=100"
+              src="/group.jpeg"
               alt="Image Description"
               width={1440}
               height={960}
@@ -183,18 +183,18 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-8 md:p-20">
-        <div className="flex flex-row gap-4 flex-wrap">
-          <div className="basis-1/4">
+      <div className="p-10 md:p-16">
+        <div className="grid grid-cols-2 gap-4 items-center md:grid-cols-4 md">
+          <div className="">
             <Card_section title="AIML" />{" "}
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="Web Dev" />
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="CPP" />
           </div>
-          <div className="basis-1/4">
+          <div className="">
             <Card_section title="Content" />
           </div>
         </div>
