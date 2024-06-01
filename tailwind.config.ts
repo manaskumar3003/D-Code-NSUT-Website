@@ -8,7 +8,7 @@ const config = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
     "./node_modules/@nextui-org/theme/dist/components/(button|dropdown|link|ripple|spinner|menu|divider|popover|image|avatar).js",
-    'node_modules/preline/dist/*.js',
+    './node_modules/preline/preline.js',
 
 	],
   prefix: "",
