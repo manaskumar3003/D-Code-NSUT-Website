@@ -1,6 +1,4 @@
-export default function Event_gallery1() {
-    return (
-        <div>
+<div>
 
 
 
@@ -9,19 +7,6 @@ export default function Event_gallery1() {
             <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
-              <div className="lg:col-span-3">
-                <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">D'code Hackathon 24 hr</h1>
-                <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">The actual hacathon where teams thrive for their last breathe</p>
-            
-                
-            
-               
-                
-              
-              </div>
-            
-            
-              <div className="lg:col-span-4 mt-10 lg:mt-0">
 
 
 
@@ -34,13 +19,7 @@ export default function Event_gallery1() {
 
 
 
-
-           <div >
-
-
-           
-
-  <div className="-m-1 flex flex-wrap md:-m-2">
+            <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/2 flex-wrap">
       <div className="w-1/2 p-1 md:p-2">
         <img
@@ -82,14 +61,60 @@ export default function Event_gallery1() {
       </div>
     </div>
   </div>
-</div>
-        </div>
-        </div>  </div>
-  
-</div>
 
-</div>
 
-        
-    );
-}
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+                <div className="lg:col-span-4 mt-10 lg:mt-0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <div >
+
+           <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">D'code Hackathon 24 hr</h1>
+                <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">The actual hacathon where teams thrive for their last breathe</p>
+            
+            
+            </div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+    </div>
+</div>
