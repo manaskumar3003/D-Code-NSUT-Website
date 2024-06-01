@@ -63,7 +63,7 @@ function PORCards({
         </div>
         <div className="flex flex-col gap-4">
           <blockquote className="mt-4 border-l-2 pl-4 italic">&quot;{message}&quot;</blockquote>
-          <div><p className="text-foreground/80 text-lg text-justify">Greetings, I am Anshul Goyal, President of D'Code. With a steadfast commitment to progress, I lead with integrity and vision. Drawing from my extensive experience in technical field, I strive for innovation and inclusivity, fostering unity among our people. Together, let us embark on a journey towards a brighter, more prosperous future.</p></div>
+          <div><p className="text-foreground/80 text-lg text-justify">Greetings, I am Anshul Goyal, President of D&apos;code. With a steadfast commitment to progress, I lead with integrity and vision. Drawing from my extensive experience in technical field, I strive for innovation and inclusivity, fostering unity among our people. Together, let us embark on a journey towards a brighter, more prosperous future.</p></div>
           <div className="flex gap-4 ps-4">
             {social.map(({ icon, link }, index) => (
               <a
