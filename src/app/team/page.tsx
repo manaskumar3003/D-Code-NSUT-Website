@@ -16,6 +16,7 @@ export default function Team() {
         <Lead />
 
         <div>
+        <h1 className="text-3xl text-center p-5 font-semibold">Our Departements</h1>
           <Tabs defaultValue="DSA">
             <div className="flex justify-center items-center">
               <TabsList className="sm:min-h-14 sm:px-3">
