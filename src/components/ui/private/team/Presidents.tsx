@@ -9,7 +9,7 @@ function President() {
         <div className="flex flex-col sm:flex-row gap-12 lg:gap-16 items-center">
           <div className="space-y-4 text-center order-2 sm:order-1">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-48 lg:w-64 lg:h-64"
-              src="https://media.licdn.com/dms/image/D5603AQFfKs_V76waKQ/profile-displayphoto-shrink_200_200/0/1710615913753?e=1722470400&v=beta&t=H2x7UpdP7isHseiQDL9VuQMZinyHOEgxjPcK67usaHk" alt="woman" width="1000" height="667" />
+              src="https://mighty.tools/mockmind-api/content/human/38.jpg" alt="woman" width="1000" height="667" />
               <div>
               <a href="https://www.linkedin.com/in/yashi-pitti-19023423a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADt6hvwBewa_RLF6XjBzeKiXDhUFfY750hk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BoxETLQsPTey6cdzlTm61Qg%3D%3D" target="_blank" className="text-2xl font-bold">Yashi Pitti</a>
               <span className="block text-sm text-gray-500">Vice-President</span>
@@ -25,7 +25,7 @@ function President() {
           </div>
           <div className="space-y-4 text-center order-2 sm:order-1">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-48 lg:w-64 lg:h-64"
-              src="https://media.licdn.com/dms/image/D5603AQFfKs_V76waKQ/profile-displayphoto-shrink_200_200/0/1710615913753?e=1722470400&v=beta&t=H2x7UpdP7isHseiQDL9VuQMZinyHOEgxjPcK67usaHk" alt="woman" width="1000" height="667" />
+              src="https://mighty.tools/mockmind-api/content/human/9.jpg" alt="woman" width="1000" height="667" />
             <div>
             <a href="https://www.linkedin.com/in/muskan-gupta-96028b251?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD4nv5gB5zgpVmHsBSHNuq8CfRAAXoqnk94&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BEqXEbFcXR%2Fma6wHqJfKFZg%3D%3D" target="_blank" className="text-2xl font-bold">Muskan Gupta</a>
               <span className="block text-sm text-gray-500">Vice-President</span>

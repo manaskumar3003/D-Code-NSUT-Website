@@ -5,13 +5,13 @@ function Secretaries() {
         <Card
           name="Piyush Tiwari"
           position="Managing Director"
-          img="https://media.licdn.com/dms/image/D4D03AQHaLVj3vfPsJQ/profile-displayphoto-shrink_100_100/0/1701797211812?e=1722470400&v=beta&t=uUZIK4CrgIlqrEwWhSbfxYhG-LlxioEnMpoQbTPHDKw"
+          img="https://mighty.tools/mockmind-api/content/human/30.jpg"
           link="https://www.linkedin.com/in/piyushtiwari14?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACmEkq8Bl0CoeXH7yP9R1EtFkJcUp2nuxuk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BGNSAnt70TiyUNW%2BfbsUiXw%3D%3D"
         />
         <Card
           name="Aditi"
           position="General Secretary"
-          img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+          img="https://mighty.tools/mockmind-api/content/human/6.jpg"
           link="https://www.linkedin.com/in/aditi-21ab1724b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD3sdXYBHvao5Ba26Bhwxg_CTW6XY7Xq9Mg&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B3SQoPT%2FKQzaKdGR8Yzg2kg%3D%3D"
         />
         <Card

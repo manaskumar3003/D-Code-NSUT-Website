@@ -11,84 +11,83 @@ function CPDepartment() {
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/2.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/9.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/25.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/5.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/24.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/7.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/18.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
           <Card
             name="Lorem Lorem"
             position="Position"
-            img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+            img="https://mighty.tools/mockmind-api/content/human/15.jpg"
             social={[
               { icon: <FaGithub />, link: "https://github.com" },
-              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
               { icon: <FaInstagram />, link: "https://instagram.com" },
             ]}
           />
-          
         </div>
       </div>
     </div>
@@ -119,6 +118,7 @@ function Card({
               key={index}
               href={link}
               className="*:size-3 *:sm:size-4"
+              target="_blank"
             >
               {icon}
             </a>
