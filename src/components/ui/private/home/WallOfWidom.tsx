@@ -49,32 +49,33 @@ function PORCards({
   return (
     <div>
       <div className="flex flex-col">
-        <div className="mt-4 ml-5 flex flex-row gap-6 flex-wrap sm:flex-nowrap items-center justify-center">
+        <div className="mt-4 ml-5 flex flex-row gap-6 flex-wrap sm:flex-nowrap">
           <div className="w-36 h-36 rounded-full overflow-hidden relative">
             <Avatar className="w-36 h-36 select-none scale-125">
               <AvatarImage src={img} />
               <AvatarFallback>{name}</AvatarFallback>
             </Avatar>
           </div>
-          <div className="flex-1 flex flex-col items-center sm:items-baseline ">
+          <div className="items-start flex flex-col justify-center">
             <h4 className="text-xl font-bold">{name}</h4>
             <p className="text-lg text-foreground/80">{position}</p>
+            <div className="flex gap-4">
+              {social.map(({ icon, link }, index) => (
+                <a
+                  key={index}
+                  href={link}
+                  className="*:size-5"
+                >
+                  {icon}
+                </a>
+              ))}
+            </div>
           </div>
         </div>
+
         <div className="flex flex-col gap-4">
           <blockquote className="mt-4 border-l-2 pl-4 italic">&quot;{message}&quot;</blockquote>
           <div><p className="text-foreground/80 text-lg text-justify">Greetings, I am Anshul Goyal, President of D&apos;code. With a steadfast commitment to progress, I lead with integrity and vision. Drawing from my extensive experience in technical field, I strive for innovation and inclusivity, fostering unity among our people. Together, let us embark on a journey towards a brighter, more prosperous future.</p></div>
-          <div className="flex gap-4 ps-4">
-            {social.map(({ icon, link }, index) => (
-              <a
-                key={index}
-                href={link}
-                className="*:size-6"
-              >
-                {icon}
-              </a>
-            ))}
-          </div>
         </div>
       </div>
       <hr className="my-4 border-foreground/20" />

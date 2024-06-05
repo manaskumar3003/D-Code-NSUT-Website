@@ -17,11 +17,11 @@ const alumni = [
   {
     name: "Anuja Singh",
     position: "SDE at Google",
-    img: "https://mighty.tools/mockmind-api/content/human/76.jpg",
+    img: "https://mighty.tools/mockmind-api/content/human/43.jpg",
     message:
       "Working at Google has been a dream come true. I am grateful to D'code for helping me get here.",
     social: [
-      { icon: <FaLinkedinIn />, link: "https://github.com" },
+      { icon: <FaGithub />, link: "https://github.com" },
       { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
       { icon: <FaInstagram />, link: "https://instagram.com" },
     ],
@@ -29,7 +29,7 @@ const alumni = [
   {
     name: "Rohit Sharma",
     position: "SDE at Amazon",
-    img: "https://mighty.tools/mockmind-api/content/human/77.jpg",
+    img: "https://mighty.tools/mockmind-api/content/human/7.jpg",
     message:
       "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
     social: [
@@ -41,7 +41,7 @@ const alumni = [
   {
     name: "Rahul Singh",
     position: "SDE at Microsoft",
-    img: "https://mighty.tools/mockmind-api/content/human/78.jpg",
+    img: "https://mighty.tools/mockmind-api/content/human/62.jpg",
     message:
       "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
     social: [
@@ -53,7 +53,7 @@ const alumni = [
   {
     name: "Ankita Singh",
     position: "SDE at Facebook",
-    img: "https://mighty.tools/mockmind-api/content/human/62.jpg",
+    img: "https://mighty.tools/mockmind-api/content/human/44.jpg",
     message:
       "I am grateful to D'code for helping me get here. I am grateful to D'code for helping me get here.",
     social: [
@@ -94,7 +94,7 @@ function AlumniCarousel() {
   );
 
   return (
-    <section className="py-20">
+    <section className="">
       <h2 className="text-4xl font-bold text-center">Alumni</h2>
       <p className="text-center text-foreground/80 mt-2">
         Our alumni have gone on to do great things. Here are some of them.
@@ -113,7 +113,7 @@ function AlumniCarousel() {
           <CarouselPrevious className="absolute top-1/2 -left-4 transform -translate-y-1/2 z-10 bg-gray-300 hover:bg-gray-400 text-dark rounded-full p-2 cursor-pointer" />
           <CarouselContent className="">
             {alumni.map((alumnus, index) => (
-              <CarouselItem key={index} className=" md:basis-1/3 lg:basis-1/5">
+              <CarouselItem key={index} className=" sm:basis-1/3 lg:basis-1/5">
                 <TeamCards {...alumnus} isAlumni />
               </CarouselItem>
             ))}
@@ -155,7 +155,7 @@ function TeamCards({
         <div className="flex-1 flex flex-col items-center">
           <h4 className="text-xl font-bold">{name}</h4>
           <p className="text-lg text-foreground/90">{position}</p>
-          <blockquote className="text-foreground/90 mt-1 line-clamp-4 italic">
+          <blockquote className="text-foreground/90 mt-1 line-clamp-4 italic text-center max-w-72">
             &quot;{message}&quot;
           </blockquote>
           <div className="flex gap-4 mt-4">
