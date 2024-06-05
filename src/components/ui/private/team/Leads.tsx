@@ -18,7 +18,7 @@ function Lead() {
               <Card
                 name="Anshul Goyal"
                 position="Web Dev Lead"
-                img="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"
+                img="/president.jpg"
                 social={[
                   { icon: <FaGithub />, link: "https://github.com" },
                   { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
