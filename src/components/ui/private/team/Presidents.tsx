@@ -17,7 +17,7 @@ function President() {
           </div>
           <div className="space-y-4 text-center sm:order-1">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-              src="https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/396156480_748355840446940_1302335004003743244_n.jpg?ccb=11-4&oh=01_Q5AaIOeBGYdxgaqEYpHLpdnWEDY5lrlUyXJwqsG1LKv7Yn6M&oe=665C2884&_nc_sid=e6ed6c&_nc_cat=107"  alt="man" width="1000" height="667" />
+              src="/president.jpg"  alt="man" width="1000" height="667" />
             <div>
               <a href="https://www.linkedin.com/in/anshul-goyal-a9b537254?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD66JFcBl9RnrmvNTULJfwv4pdySAsSUFDw&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B6Hphmv6hS%2B2t9RPuP1Q9mQ%3D%3D" target="_blank" className="text-2xl font-bold">Anshul Goyal</a>
               <span className="block text-sm text-gray-500">President</span>
