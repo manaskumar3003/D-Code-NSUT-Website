@@ -71,7 +71,7 @@ function Lead() {
                 img="https://mighty.tools/mockmind-api/content/human/6.jpg"
                 social={[
                   { icon: <FaGithub />, link: "https://github.com" },
-                  { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/anshul-goyal-a9b537254/" },
+                  { icon: <FaLinkedinIn />, link: "https://www.linkedin.com" },
                   { icon: <FaInstagram />, link: "https://instagram.com" },
                 ]}
               />
@@ -96,7 +96,7 @@ function Card({
   return (
     <div>
       <div className="flex flex-col justify-center items-center text-center rounded-md 
-                      min-w-40 sm:min-w-44 lg:min-w-56 pb-3 md:pb-4 lg:pb-5 bg-[#686D76] gap-3 text-[#0f0f10]">
+                      min-w-40 sm:min-w-44 lg:min-w-56 pb-3 md:pb-4 lg:pb-5 bg-[#1e1e1ed2] gap-3 text-[#F0F0F0]">
         <img alt="Picture" className="w-20 h-20 -mt-10 sm:w-24 sm:h-24 sm:-mt-12 md:w-28 md:h-28 md:-mt-14 lg:w-32 lg:h-32 lg:-mt-16 rounded-full" src={img} />
           <div>
           <p className="lg:text-xl font-semibold">{name}</p>

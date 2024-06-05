@@ -1,5 +1,4 @@
 import AlumniCarousel from "@/components/ui/private/home/AlumniCarousel";
-import EventGrid from "@/components/ui/private/home/EventGrid";
 import Roles_home from "@/components/ui/private/home/Roles_home";
 import WallOfWidom from "@/components/ui/private/home/WallOfWidom";
 import Card_section from "@/components/ui/private/home/card_section";
@@ -7,8 +6,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="light">
-      <div className=" container mx-auto px-4 sm:px-6 lg:px-8">
+    <main className="light pt-3 flex flex-col gap-20">
+      <div className="container px-6 sm:px-8 lg:px-10 ">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div className="flex flex-col justify-center w-full h-full">
             <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
@@ -62,150 +61,76 @@ export default function Home() {
             />
             <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
-            <div className="absolute bottom-0 start-0">
-              <svg
-                className="w-2/3 ms-auto h-auto text-white dark:text-neutral-900"
-                width="630"
-                height="451"
-                viewBox="0 0 630 451"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="531"
-                  y="352"
-                  width="99"
-                  height="99"
-                  fill="currentColor"
-                />
-                <rect
-                  x="140"
-                  y="352"
-                  width="106"
-                  height="99"
-                  fill="currentColor"
-                />
-                <rect
-                  x="482"
-                  y="402"
-                  width="64"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect
-                  x="433"
-                  y="402"
-                  width="63"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect
-                  x="384"
-                  y="352"
-                  width="49"
-                  height="50"
-                  fill="currentColor"
-                />
-                <rect
-                  x="531"
-                  y="328"
-                  width="50"
-                  height="50"
-                  fill="currentColor"
-                />
-                <rect
-                  x="99"
-                  y="303"
-                  width="49"
-                  height="58"
-                  fill="currentColor"
-                />
-                <rect
-                  x="99"
-                  y="352"
-                  width="49"
-                  height="50"
-                  fill="currentColor"
-                />
-                <rect
-                  x="99"
-                  y="392"
-                  width="49"
-                  height="59"
-                  fill="currentColor"
-                />
-                <rect
-                  x="44"
-                  y="402"
-                  width="66"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect
-                  x="234"
-                  y="402"
-                  width="62"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect
-                  x="334"
-                  y="303"
-                  width="50"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect x="581" width="49" height="49" fill="currentColor" />
-                <rect x="581" width="49" height="64" fill="currentColor" />
-                <rect
-                  x="482"
-                  y="123"
-                  width="49"
-                  height="49"
-                  fill="currentColor"
-                />
-                <rect
-                  x="507"
-                  y="124"
-                  width="49"
-                  height="24"
-                  fill="currentColor"
-                />
-                <rect
-                  x="531"
-                  y="49"
-                  width="99"
-                  height="99"
-                  fill="currentColor"
-                />
-              </svg>
-            </div>
           </div>
         </div>
       </div>
-      <div className="p-10 md:p-16">
-        <div className="grid grid-cols-2 gap-4 items-center md:grid-cols-4 md">
-          <div className="">
-            <Card_section title="AIML" />{" "}
-          </div>
-          <div className="">
-            <Card_section title="Web Dev" />
-          </div>
-          <div className="">
-            <Card_section title="CPP" />
-          </div>
-          <div className="">
-            <Card_section title="Content" />
-          </div>
-        </div>
 
-        <Roles_home />
-        {/* <Alumni_home /> */}
-
+      <div className="px-6 md:px-8 lg:px-12">
         <WallOfWidom />
-        <AlumniCarousel />
-        <EventGrid />
       </div>
+
+      <div className="px-6 md:px-12">
+        <div className="flex flex-col sm:flex-row justify-around items-center gap-5">
+          <div className="flex sm:flex-col gap-2 md:gap-3">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold">Our</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold">Departments</h1>
+          </div>
+          <div className=" grid grid-cols-2 gap-5 lg:gap-8 items-center max-w-xl ">
+            <a href="/team">
+              <Card_section title="CPP" />
+            </a>
+            <a href="/team">
+              <Card_section title="Web Dev" />
+            </a>
+            <a href="/team">
+              <Card_section title="AI & ML" />
+            </a>
+            <a href="/team">
+              <Card_section title="Content & Design" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <Roles_home />
+
+      <div className="px-16">
+        <AlumniCarousel />
+      </div>
+
+      <div className="mx-auto px-3 md:px-5 max-w-lg sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+
+        <div className="text-5xl font-semibold pb-10 text-center"><a className="hover:underline hover:underline-offset-3" href="\event">Events</a></div>
+
+        <div className="grid grid-cols-6 gap-2">
+          <div className=" overflow-hidden rounded-xl col-span-6 sm:col-span-3 max-h-60 sm:max-h-80">
+            <img className="h-full w-full object-cover "
+              src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+              alt="" />
+          </div>
+          <div className=" overflow-hidden rounded-xl col-span-6 sm:col-span-3 max-h-60 sm:max-h-80">
+            <img className="h-full w-full object-cover  "
+              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80"
+              alt="" />
+          </div>
+          <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
+            <img className="h-full w-full object-cover "
+              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt="" />
+          </div>
+          <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
+            <img className="h-full w-full object-cover "
+              src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              alt="" />
+          </div>
+          <div className=" overflow-hidden rounded-xl col-span-2 max-h-52">
+            <img className="h-full w-full object-cover "
+              src="https://images.unsplash.com/photo-1560393464-5c69a73c5770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+              alt="" />
+          </div>
+        </div>
+      </div>
+
     </main>
   );
 }

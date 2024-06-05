@@ -13,7 +13,7 @@ export default function Footer() {
               <a href="/" className="mr-4 hover:underline md:mr-6 ">Home</a>
           </li>
           <li>
-              <a href="/about" className="mr-4 hover:underline md:mr-6">About</a>
+              <a href="/team" className="mr-4 hover:underline md:mr-6">Team</a>
           </li>
           <li>
               <a href="/event" className="mr-4 hover:underline md:mr-6 ">Events</a>
@@ -31,7 +31,7 @@ export default function Footer() {
               <a href="/contact" className="mr-4 hover:underline md:mr-6">Contact</a>
           </li>
       </ul>
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024-2025 <a href="#" className="hover:underline">D&aposcode</a>. All Rights Reserved under NSUT.</span>
+      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024-2025 <a href="#" className="hover:underline">D&apos;code</a>. All Rights Reserved under NSUT.</span>
   </div>
 </footer>
 </>
