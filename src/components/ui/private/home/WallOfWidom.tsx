@@ -11,7 +11,10 @@ function WallOfWidom() {
           We are the official D&apos;Code NSUT. Our mission is to build a robust competitive programming culture at NSUT and help students become better problem solvers, foster learning and focus on the development of all individuals in terms of their technical knowledge.
         </p>
         <p className="text-foreground/80 text-lg text-justify">
-          We conduct various activities such as live sessions on challenging competitive programming problems, discussion of CodeChef challenge solutions, and organize our very own CodeChef competitions to facilitate learning and raise awareness about the importance of competitive programming and problem solving in our professional and everyday life.
+          We conduct various activities such as live sessions on challenging competitive programming problems, post contest discussion, and organize our very own competitions to facilitate learning and raise awareness about the importance of competitive programming and problem solving in our professional and everyday life.
+        </p>
+        <p className="text-foreground/80 text-lg text-justify md:hidden xl:block">
+          Our society collaborates with industry experts and alumni to provide mentorship, workshops, and guest lectures, ensuring that our members stay updated with the latest trends and technologies.
         </p>
       </div>
       <div className="">
@@ -75,7 +78,9 @@ function PORCards({
 
         <div className="flex flex-col gap-4">
           <blockquote className="mt-4 border-l-2 pl-4 italic">&quot;{message}&quot;</blockquote>
-          <div><p className="text-foreground/80 text-lg text-justify">Greetings, I am Anshul Goyal, President of D&apos;code. With a steadfast commitment to progress, I lead with integrity and vision. Drawing from my extensive experience in technical field, I strive for innovation and inclusivity, fostering unity among our people. Together, let us embark on a journey towards a brighter, more prosperous future.</p></div>
+          <div><p className="text-foreground/80 text-lg text-justify">
+            Welcome to D'Code NSUT! I am Anshul Goyal, President of this vibrant society. Our goal is to create a collaborative environment for tech enthusiasts to learn and grow. With departments in Competitive Programming, Web Development, AI & ML, and Content & Design, we offer diverse opportunities to enhance your skills. Join us in our journey of innovation and excellence. Let's work together to achieve great things and make a lasting impact.
+          </p></div>
         </div>
       </div>
       <hr className="my-4 border-foreground/20" />
