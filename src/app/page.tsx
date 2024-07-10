@@ -70,23 +70,38 @@ export default function Home() {
       </div>
 
       <div className="px-6 md:px-12">
-        <div className="flex flex-col sm:flex-row justify-around items-center gap-5">
-          <div className="flex sm:flex-col gap-2 md:gap-3">
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold">Our</h1>
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-semibold">Departments</h1>
+        <div className="flex flex-col lg:flex-row justify-around items-center gap-8 lg:gap-3">
+          <div className="flex flex-col items-center lg:items-start lg:gap-1">
+            <div className="flex lg:flex-col gap-2 md:gap-3">
+              <h1 className="text-4xl sm:text-5xl xl:text-7xl font-semibold">Our</h1>
+              <h1 className="text-4xl sm:text-5xl xl:text-7xl font-semibold">Departments</h1>
+            </div>
+            <blockquote className="text-lg xl:text-xl mt-4 xl:pl-4 italic">&quot;Dedicated teams, diverse expertise.&quot;</blockquote>
           </div>
-          <div className=" grid grid-cols-2 gap-5 lg:gap-8 items-center max-w-xl ">
+          <div className="flex flex-col sm:grid sm:grid-cols-2 gap-8 lg:gap-6 xl:gap-8 items-center">
             <a href="/team">
-              <Card_section title="CPP" />
+              <Card_section
+                title="CP"
+                contents="Sharpen your problem-solving skills with coding challenges and algorithmic puzzles. Compete and collaborate with fellow enthusiasts."
+              />
             </a>
             <a href="/team">
-              <Card_section title="Web Dev" />
+              <Card_section
+                title="Web Dev"
+                contents="Learn HTML, CSS, JavaScript, and modern frameworks. Build responsive websites and applications, and collaborate on real-world projects."
+              />
             </a>
             <a href="/team">
-              <Card_section title="AI & ML" />
+              <Card_section
+                title="AI & ML"
+                contents="Discover neural networks, data processing, and predictive analytics. Engage in projects, competitions, and workshops to boost your skill."
+              />
             </a>
             <a href="/team">
-              <Card_section title="Content & Design" />
+              <Card_section
+                title="Content & Design"
+                contents="Master graphic design, UI/UX principles, and content strategy. Create compelling content and designs to build a standout portfolio."
+              />
             </a>
           </div>
         </div>
