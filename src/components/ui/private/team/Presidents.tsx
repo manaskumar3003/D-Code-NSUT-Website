@@ -4,12 +4,12 @@ function President() {
       <div className="flex flex-col justify-center items-center gap-10 px-6 md:px-12 xl:px-32">
         <div className="text-center">
           <h2 className="text-center mb-4 text-2xl text-gray-900 font-bold md:text-4xl">Meet our Team</h2>
-          <p className="text-gray-600 lg:w-8/12 lg:mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae tempora sunt eveniet earum est praesentium omnis eos amet molestiae sint possimus, distinctio neque, obcaecati, ipsa architecto eum quae quidem dignissimos quod illum quia consequatur aliquid nulla. Voluptas reprehenderit dignissimos vel cumque quibusdam non ea?</p>
+          <p className="text-gray-600 lg:w-3/4 lg:mx-auto">Our team at D'Code NSUT comprises passionate and dedicated individuals committed to fostering a vibrant tech community. Each member brings unique skills and expertise, working collaboratively to organize events, workshops, and projects. Together, we strive to create an inclusive environment where members can learn, innovate, and excel. Meet the brilliant minds behind our initiatives, always ready to support and guide you on your journey in the tech world.</p>
         </div>
         <div className="flex flex-col sm:flex-row gap-12 lg:gap-16 items-center">
           <div className="space-y-4 text-center order-2 sm:order-1">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-48 lg:w-64 lg:h-64"
-              src="https://mighty.tools/mockmind-api/content/human/38.jpg" alt="woman" width="1000" height="667" />
+              src="/core/YashiPitti.webp" alt="woman" width="1000" height="667" />
               <div>
               <a href="https://www.linkedin.com/in/yashi-pitti-19023423a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADt6hvwBewa_RLF6XjBzeKiXDhUFfY750hk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BoxETLQsPTey6cdzlTm61Qg%3D%3D" target="_blank" className="text-2xl font-bold">Yashi Pitti</a>
               <span className="block text-sm text-gray-500">Vice-President</span>
@@ -25,7 +25,7 @@ function President() {
           </div>
           <div className="space-y-4 text-center order-2 sm:order-1">
             <img className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-48 lg:w-64 lg:h-64"
-              src="https://mighty.tools/mockmind-api/content/human/9.jpg" alt="woman" width="1000" height="667" />
+              src="/core/MuskanGupta.jpeg" alt="woman" width="1000" height="667" />
             <div>
             <a href="https://www.linkedin.com/in/muskan-gupta-96028b251?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD4nv5gB5zgpVmHsBSHNuq8CfRAAXoqnk94&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BEqXEbFcXR%2Fma6wHqJfKFZg%3D%3D" target="_blank" className="text-2xl font-bold">Muskan Gupta</a>
               <span className="block text-sm text-gray-500">Vice-President</span>
