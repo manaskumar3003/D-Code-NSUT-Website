@@ -12,28 +12,28 @@ export default function Roles_home() {
             <div className="lg:col-span-6 lg:col-start-8 lg:order-2">
               <div className="flex flex-col gap-5 justify-center">
 
-                <h1 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-neutral-200">
+                <a href="/roadmap" className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-neutral-200">
                   Roadmaps
-                </h1>
+                </a>
 
                 <TabsList className="flex lg:flex-col sm:px-3 h-full ">
 
                   <TabsTrigger value="DSA" className="w-full sm:text-lg text-left text-wrap rounded-2xl p-2 md:p-4">
                     <div className="flex flex-col gap-2 m-2">
                       <h1 className="text-center sm:text-left sm:text-xl text-gray-800 dark:text-neutral-200 font-bold">Data Structures & Algorithm</h1>
-                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ullam!</h1>
+                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">A step-by-step guide to mastering algorithms and data structures, from beginner to advanced levels.</h1>
                     </div>
                   </TabsTrigger>
                   <TabsTrigger value="WebDev" className="w-full sm:text-lg text-left text-wrap rounded-2xl p-2 md:p-4">
                     <div className="flex flex-col gap-2 m-2">
                       <h1 className="text-center sm:text-left sm:text-xl text-gray-800 dark:text-neutral-200 font-bold">Web Development</h1>
-                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, reprehenderit!</h1>
+                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">Learn to build dynamic and responsive websites with HTML, CSS, JavaScript, and popular frameworks.</h1>
                     </div>
                   </TabsTrigger>
                   <TabsTrigger value="ML" className="w-full sm:text-lg text-left text-wrap rounded-2xl p-2 md:p-4">
                     <div className="flex flex-col gap-2 m-2">
                       <h1 className="text-center sm:text-left sm:text-xl text-gray-800 dark:text-neutral-200 font-bold">Machine Learning</h1>
-                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, sapiente.</h1>
+                      <h1 className="hidden sm:inline text-sm sm:text-base text-gray-800 dark:text-neutral-200">Understand the fundamentals of machine learning and neural networks, and apply them to real-world problems.</h1>
                     </div>
                   </TabsTrigger>
                 </TabsList>
@@ -44,13 +44,13 @@ export default function Roles_home() {
               <div className="relative">
 
                 <TabsContent value="DSA">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://media.licdn.com/dms/image/C5612AQEz0hpmCQQ9xA/article-cover_image-shrink_600_2000/0/1645599766887?e=2147483647&v=beta&t=bofydXF-Sf5Q_t5T8xX0Cz1Yuk4uSLma4sUb61WhogY" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
                 <TabsContent value="WebDev">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
                 <TabsContent value="ML">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://editor.analyticsvidhya.com/uploads/70332https___specials-images.forbesimg.com_dam_imageserve_966248982_960x0.jpg" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
 
                 <div className="hidden absolute top-0 end-0 translate-x-20 md:block lg:translate-x-20">

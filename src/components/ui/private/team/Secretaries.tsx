@@ -5,13 +5,13 @@ function Secretaries() {
         <Card
           name="Piyush Tiwari"
           position="Managing Director"
-          img="https://mighty.tools/mockmind-api/content/human/30.jpg"
+          img="/core/PiyushTiwari.jpeg"
           link="https://www.linkedin.com/in/piyushtiwari14?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACmEkq8Bl0CoeXH7yP9R1EtFkJcUp2nuxuk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BGNSAnt70TiyUNW%2BfbsUiXw%3D%3D"
         />
         <Card
           name="Aditi"
           position="General Secretary"
-          img="https://mighty.tools/mockmind-api/content/human/6.jpg"
+          img="/core/Aditi.jpeg"
           link="https://www.linkedin.com/in/aditi-21ab1724b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD3sdXYBHvao5Ba26Bhwxg_CTW6XY7Xq9Mg&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B3SQoPT%2FKQzaKdGR8Yzg2kg%3D%3D"
         />
         <Card
