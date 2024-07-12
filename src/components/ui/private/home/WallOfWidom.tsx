@@ -79,7 +79,7 @@ function PORCards({
         <div className="flex flex-col gap-4">
           <blockquote className="mt-4 border-l-2 pl-4 italic">&quot;{message}&quot;</blockquote>
           <div><p className="text-foreground/80 text-lg text-justify">
-            Welcome to D'Code NSUT! I am Anshul Goyal, President of this vibrant society. Our goal is to create a collaborative environment for tech enthusiasts to learn and grow. With departments in Competitive Programming, Web Development, AI & ML, and Content & Design, we offer diverse opportunities to enhance your skills. Join us in our journey of innovation and excellence. Let's work together to achieve great things and make a lasting impact.
+            Welcome to D&apos;Code NSUT! I am Anshul Goyal, President of this vibrant society. Our goal is to create a collaborative environment for tech enthusiasts to learn and grow. With departments in Competitive Programming, Web Development, AI & ML, and Content & Design, we offer diverse opportunities to enhance your skills. Join us in our journey of innovation and excellence. Let&apos;s work together to achieve great things and make a lasting impact.
           </p></div>
         </div>
       </div>
