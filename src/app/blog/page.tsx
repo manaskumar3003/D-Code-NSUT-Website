@@ -7,7 +7,7 @@ const Page = () => {
     let [Bloglist, setBloglist] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/blog/bloglist")
+        axios.get("https://server-xvy0.onrender.com/blog/bloglist")
             .then(res => {
                 setBloglist(res.data);
                 console.log(res.data);

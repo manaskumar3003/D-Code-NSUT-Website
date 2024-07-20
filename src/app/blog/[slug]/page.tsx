@@ -17,7 +17,7 @@ const page = ({ params }: { params: { slug: string } }) => {
     let [BlogContent, setBlogContent] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/blog/bloglist")
+        axios.get("https://server-xvy0.onrender.com/blog/bloglist")
             .then(res => {
                 const blog = res.data.find((blog: { _id: string; }) => blog._id === params.slug);
                 setBlogContent(blog);
