@@ -13,7 +13,7 @@ interface BlogContentType {
 
 
 
-const page = ({ params }: { params: { slug: string } }) => {
+const Page = ({ params }: { params: { slug: string } }) => {
     let [BlogContent, setBlogContent] = useState([]);
 
     useEffect(() => {
@@ -39,4 +39,4 @@ const page = ({ params }: { params: { slug: string } }) => {
   )
 }
 
-export default page
+export default Page
