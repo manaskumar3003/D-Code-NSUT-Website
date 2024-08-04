@@ -9,6 +9,7 @@ interface BlogContentType {
     content: string;
     author:string;
     authorUrl:string;
+    imageUrl:string
   }
  
 
