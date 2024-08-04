@@ -38,19 +38,19 @@ export default function Event_gallery2() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+          src="/eventHome/tr-1.jpeg" />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+          src="/eventHome/tr-2.jpeg" />
       </div>
       <div className="w-full p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" />
+          src="/eventHome/byte1.jpeg" />
       </div>
     </div>
     <div className="flex w-1/2 flex-wrap">
@@ -58,19 +58,19 @@ export default function Event_gallery2() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp" />
+          src="/eventHome/byte-2.jpeg" />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp" />
+          src="/eventHome/byte-3.jpeg" />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp" />
+          src="/eventHome/ByteBazaar.jpeg" />
       </div>
     </div>
   </div></div>
@@ -99,8 +99,8 @@ export default function Event_gallery2() {
       </div>
       <div className="flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
         <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> D&apos;code </span>
-        <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">Byte Bazaar</h1>
-        <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Bid for your problem statement</p>
+        <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 md:text-7xl lg:text-5xl">Byte Bazaar & others</h1>
+        <p className="mb-8 text-base leading-relaxed text-left text-gray-500">Bid for your problem statement event and other moments</p>
         <div className="mt-0 lg:mt-6 max-w-7xl sm:flex">
           
         </div>

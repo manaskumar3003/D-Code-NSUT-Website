@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Event_carousel() {
     return (
         <div>
@@ -9,18 +10,20 @@ export default function Event_carousel() {
   <div className="hs-carousel relative overflow-hidden w-full min-h-96 bg-white rounded-lg">
     <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
       <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">First slide</span>
+        <div className="flex justify-center h-full bg-gray-100 p-6 ">
+          <span className="self-center text-4xl text-gray-800 transition duration-700 ">
+          <img src="" alt="Blog Image" className="w-full h-auto" />
+          </span>
         </div>
       </div>
       <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-200 p-6 dark:bg-neutral-800">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Second slide</span>
+        <div className="flex justify-center h-full bg-gray-200 p-6 ">
+          <span className="self-center text-4xl text-gray-800 transition duration-700 ">Second slide</span>
         </div>
       </div>
       <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-300 p-6 dark:bg-neutral-700">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Third slide</span>
+        <div className="flex justify-center h-full bg-gray-300 p-6">
+          <span className="self-center text-4xl text-gray-800 transition duration-700 ">Third slide</span>
         </div>
       </div>
     </div>

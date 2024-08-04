@@ -2,14 +2,14 @@ import React from 'react'
 
 interface BlogpageProps {
     title: string;
-    content: string;
+    
     slugurl:string;
     imageUrl:string;
     author:string;
     authorUrl:string;
 }
 
-const Blogpage: React.FC<BlogpageProps> = ({ title, content,slugurl,imageUrl,author,authorUrl }) => {
+const Blogpage: React.FC<BlogpageProps> = ({ title, slugurl,imageUrl,author,authorUrl }) => {
 
   return (
     <div>
@@ -31,9 +31,7 @@ const Blogpage: React.FC<BlogpageProps> = ({ title, content,slugurl,imageUrl,aut
         <h3 className="text-xl font-semibold text-gray-800 ">
           {title}
         </h3>
-        <p className="mt-5 text-gray-600 ">
-          {content}
-        </p>
+        
       </div>
       <div className="mt-auto flex items-center gap-x-3">
         <img className="size-8 rounded-full" src={authorUrl} alt="Image Description"/>
