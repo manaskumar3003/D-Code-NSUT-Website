@@ -10,11 +10,13 @@ interface BlogContentType {
     author:string;
     authorUrl:string;
   }
+ 
 
 
 
 const Page = ({ params }: { params: { slug: string } }) => {
-    let [BlogContent, setBlogContent] = useState([]);
+    let [BlogContent, setBlogContent] = useState<BlogContentType | null>(null);
+    
 
     useEffect(() => {
         axios.get("https://server-xvy0.onrender.com/blog/bloglist")
@@ -27,10 +29,12 @@ const Page = ({ params }: { params: { slug: string } }) => {
                 console.error("Error fetching blog list: ", err);
             });
     }, []);
+    
 
 
   return (
     <div>
+      
 
         <Blogtemplate title={BlogContent.title} author={BlogContent.author} content={BlogContent.content} imageUrl={BlogContent.imageUrl} authorUrl={BlogContent.authorUrl}/>
 
