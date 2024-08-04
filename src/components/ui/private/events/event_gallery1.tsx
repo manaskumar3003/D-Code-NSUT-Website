@@ -49,7 +49,7 @@ export default function Event_gallery1() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/Hack-2.jpeg" />
+          src="/eventHome/hack-2.jpeg" />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
@@ -61,7 +61,7 @@ export default function Event_gallery1() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/Hack-3.jpeg" />
+          src="/eventHome/hack-3.jpeg" />
       </div>
     </div>
     <div className="flex w-1/2 flex-wrap">
@@ -69,7 +69,7 @@ export default function Event_gallery1() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/Hack-5.jpeg" />
+          src="/eventHome/hack-5.jpeg" />
       </div>
       <div className="w-1/2 p-1 md:p-2">
         <img
@@ -81,7 +81,7 @@ export default function Event_gallery1() {
         <img
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="/eventHome/Hack-6.jpeg" />
+          src="/eventHome/hack-6.jpeg" />
       </div>
     </div>
   </div>
