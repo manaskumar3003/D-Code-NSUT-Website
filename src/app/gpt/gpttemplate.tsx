@@ -14,7 +14,7 @@ const Gpttemplate = () => {
       </svg> */}
 
       <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl ">
-        Welcome to D'code AI
+        Welcome to D&aposcode AI
       </h1>
       <p className="mt-3 text-gray-600 ">
         Your AI-powered copilot for your College
@@ -38,7 +38,7 @@ const Gpttemplate = () => {
   </div>
 
   <footer className="mt-auto max-w-4xl text-center mx-auto px-4 sm:px-6 lg:px-8">
-    <p className="text-xs text-gray-600 ">Made with ❤️ by  <a className="text-gray-800 decoration-2 hover:underline font-semibold "  target="_blank">D'code</a>.</p>
+    <p className="text-xs text-gray-600 ">Made with ❤️ by  <a className="text-gray-800 decoration-2 hover:underline font-semibold "  target="_blank">D&aposcode</a>.</p>
   </footer>
 </div>
     </div>
