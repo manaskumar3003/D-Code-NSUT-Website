@@ -17,13 +17,13 @@ function Secretaries() {
         <Card
           name="Ashmita"
           position="General Secretary"
-          img="https://media.licdn.com/dms/image/D5603AQHIX9F4nYi9_Q/profile-displayphoto-shrink_200_200/0/1712589063808?e=1722470400&v=beta&t=P_r4QcazE6sEF6otSs2A3iI7XqUP8cFr3zyIVV8zWSQ"
+          img="/core/AshmitaLuthra.jpeg"
           link="https://www.linkedin.com/in/ashmita-luthra-01b91b203?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADPtd1cBfqj96LPvXZsCDiB-kisOF4ox458&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Brfy4m%2B2lS2So74hb76VPzw%3D%3D"
         />
         <Card
           name="Garima"
           position="General Secretary"
-          img="https://media.licdn.com/dms/image/D5603AQHm0nkMAc9Mow/profile-displayphoto-shrink_200_200/0/1700246692604?e=1722470400&v=beta&t=rqBQumFLY-dyArs3rsv0yeS1n75QWkS1oonDakxgtyo"
+          img="/core/Garima.jpeg"
           link="https://www.linkedin.com/in/garimasingh225/"
         />
       </div>

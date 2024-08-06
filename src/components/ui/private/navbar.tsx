@@ -1,88 +1,97 @@
-import Image from "next/image";
+"use client";
+
 import Logo from "./includes/Logo";
+import React, { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
+  const [nav, setNav] = useState(false);
+  const [animationClass, setAnimationClass] = useState('');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        if (nav) {
+          setNav(false);
+        }
+        setAnimationClass('');
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [nav]);
+
+  const handleNavToggle = () => {
+    if (window.innerWidth < 768) {
+      setAnimationClass(nav ? 'nav-menu-exit' : 'nav-menu');
+    } else {
+      setAnimationClass('');
+    }
+    setNav(!nav);
+  };
+
   return (
-    <div>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <Logo className="w-16 h-16" />
+    <nav>
+      <div className="flex justify-between items-center h-24 px-4 sm:px-6 xl:px-8 nav">
+        <a href="/" className="z-20">
+          <Logo className="w-16 h-16" />
+        </a>
+
+        <div className="hidden text-xl md:flex md:items-center md:justify-center md:gap-8 font-medium text-gray-900">
+          <a href="/"
+            className="hover:scale-125 duration-200 hover:transform hover:origin-center">
+            Home
           </a>
-          <button
-            data-collapse-toggle="navbar-default"
-            type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="w-5 h-5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
-          </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Home
-                </a>
-              </li>
-              
-              <li>
-                <a
-                  href="/team"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Team
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/roadmap"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Roadmap
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/event"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Event
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/blog"
-                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
+          <a href="/team"
+            className="hover:scale-125 duration-200 hover:transform hover:origin-center">
+            Team
+          </a>
+          <a href="/roadmap"
+            className="hover:scale-125 duration-200 hover:transform hover:origin-center">
+            Roadmap
+          </a>
+          <a href="/event"
+            className="hover:scale-125 duration-200 hover:transform hover:origin-center">
+            Events
+          </a>
+          <a href="/blog"
+            className="hover:scale-125 duration-200 hover:transform hover:origin-center">
+            Blog
+          </a>
+
         </div>
-      </nav>
-    </div>
+
+        <div
+          onClick={handleNavToggle}
+          className="cursor-pointer pr-4 -mt-4 z-10 text-gray-500 md:hidden"
+        >
+          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        </div>
+
+        {(nav || animationClass === 'nav-menu-exit') && (
+          <div
+            className={`${animationClass} flex flex-col ps-6 pe-8 pt-16 py-4 gap-3 text-2xl w-full font-medium text-gray-900 absolute top-0 text-right right-0 
+            bg-gradient-to-br from-white to-gray-50 transform`}
+            onAnimationEnd={() => {
+              if (animationClass === 'nav-menu-exit') {
+                setAnimationClass('hidden');
+              }
+            }}
+          >
+            <a href="/" className="">Home</a>
+            <a href="/team" className="">Team</a>
+            <a href="/roadmap" className="">Roadmap</a>
+            <a href="/event" className="">Events</a>
+            <a href="/blog" className="">Blog</a>
+          </div>
+        )}
+      </div>
+    </nav>
   );
 }
