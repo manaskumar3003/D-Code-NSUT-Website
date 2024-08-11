@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-export default function Roles_home() {
+export default function Roadmap_home() {
   return (
     <div>
       <div className="max-w-[85rem] px-8 sm:px-12 md:px-14 lg:px-20 mx-auto">
@@ -44,13 +44,13 @@ export default function Roles_home() {
               <div className="relative">
 
                 <TabsContent value="DSA">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://media.licdn.com/dms/image/C5612AQEz0hpmCQQ9xA/article-cover_image-shrink_600_2000/0/1645599766887?e=2147483647&v=beta&t=bofydXF-Sf5Q_t5T8xX0Cz1Yuk4uSLma4sUb61WhogY" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="/roadmapHome/dsa.png" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
                 <TabsContent value="WebDev">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="/roadmapHome/web.jpg" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
                 <TabsContent value="ML">
-                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="https://editor.analyticsvidhya.com/uploads/70332https___specials-images.forbesimg.com_dam_imageserve_966248982_960x0.jpg" alt="Image Description" height={1240} width={987} />
+                  <Image unoptimized className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/20" src="/roadmapHome/ML.jpg" alt="Image Description" height={1240} width={987} />
                 </TabsContent>
 
                 <div className="hidden absolute top-0 end-0 translate-x-20 md:block lg:translate-x-20">
